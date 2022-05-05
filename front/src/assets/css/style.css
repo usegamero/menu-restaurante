@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500&family=Ubuntu:ital,wght@0,300;0,400;0,700;1,300&display=swap');#app {
+  font-family: "Ubuntu", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-align: center;
+  
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+  min-height: 100vh;
+  background-color:#fae8b9;
+  color:#a31d1e;
+}
+a{
+  text-decoration: none;
+}
+ul{
+  list-style: none;
+}
+#main-header {
+  background-color: #C98040;
+  display: flex;
+  justify-content: space-between;
+  padding: 1.5em;
+  align-items: center;
+}
+
+#main-header img {
+  width: 25%;
+  display: block;
+}
+
+#main-nav a {
+  font-weight: bold;
+  color: #a31d1e;
+  font-size: 1.3em;
+}
+
+#main-nav a.router-link-exact-active {
+  color: #f4c651;
+  text-decoration: none;
+}
+
+.btn {
+  cursor: pointer;
+  user-select: none;
+  border:2px solid #a31d1e;;
+  padding: 1em;
+  font-size: 0.9em;
+  font-weight: bold;
+  background-color:#a31d1e;
+  color:#fae8b9;
+  margin-top: 1em;
+}
+.btn:hover{
+  color:#a31d1e;
+  background-color:#fae8b9 ;
+}
+
+@media (min-width:550px){
+
+#main-header{
+  padding: 2em;
+  
+}
+
+#main-header img{
+  width: 8%;
+}
+#main-nav a {
+  font-size: 1em;
+}
+
+}
+
+@media (min-width:800px){
+  #main-header{
+    padding: 0.8em 3em;
+  }
+
+}
